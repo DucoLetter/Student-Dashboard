@@ -1,0 +1,214 @@
+/* students */
+#navBar li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* header */
+#header li {
+  margin-top: 0;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+#header li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+#header li a:hover {
+  color: black;
+}
+
+#header {
+  background: linear-gradient(
+    to bottom,
+    rgba(113, 119, 227, 1) 0%,
+    rgba(113, 119, 227, 1) 38%,
+    rgba(138, 143, 230, 1) 54%,
+    rgba(176, 179, 235, 1) 70%,
+    rgba(202, 203, 227, 1) 80%,
+    rgba(255, 255, 255, 1) 93%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  margin: 0;
+  padding: 30px;
+}
+
+.wincLogo {
+  width: 70px;
+}
+
+/* Chart */
+figure {
+  box-shadow: 0px 1px 31px 3px rgba(0, 0, 0, 0.3);
+  width: 1200px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.chart h2 {
+  text-align: center;
+}
+
+/* StudentBox */
+
+.studentBoxes {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 315px);
+  grid-gap: 30px;
+  margin: auto;
+}
+
+.boxWhite {
+  background-color: white;
+  border-radius: 32px 32px 32px 32px;
+  -moz-border-radius: 32px 32px 32px 32px;
+  -webkit-border-radius: 32px 32px 32px 32px;
+  border: 0px solid #000000;
+  padding-top: 60px;
+  margin: 10px;
+  transition-duration: 1000ms;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.boxBlue {
+  background-color: #686de0;
+  text-align: center;
+  border-radius: 00px 00px 32px 32px;
+  -moz-border-radius: 00px 00px 32px 32px;
+  -webkit-border-radius: 00px 00px 32px 32px;
+  border: 0px solid #000000;
+  transition-duration: 1000ms;
+  height: 120px;
+}
+div.imgbox img {
+  position: static;
+  width: 100px;
+  height: 100px;
+  top: 220px;
+  left: 10;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 5px white solid;
+  transform: translateY(-50px);
+}
+
+.boxBlue h5 {
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  transform: translateY(-45px);
+}
+.boxWhite:hover {
+  background-color: #aa49bf;
+}
+
+.boxWhite:hover .boxBlue {
+  background: #aa49bf;
+}
+.btn {
+  opacity: 0;
+  border-radius: 5px;
+  border-color: white;
+  transform: translate(90px, 28px);
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.btnLink {
+  text-decoration: none;
+}
+
+.boxWhite:hover .btn {
+  opacity: 100%;
+  background-color: white;
+}
+.boxWhite:hover .boxBlue h5 {
+  color: #aa49bf;
+}
+.boxWhite:hover .boxBlue img {
+  visibility: hidden;
+}
+
+/* Studentboxes Individual pages */
+
+.boxWhiteStudents {
+  background-color: white;
+  border-radius: 32px 32px 32px 32px;
+  -moz-border-radius: 32px 32px 32px 32px;
+  -webkit-border-radius: 32px 32px 32px 32px;
+  border: 0px solid #000000;
+  padding-top: 60px;
+  margin: 10px;
+  transition-duration: 1000ms;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxBlueStudents {
+  background-color: #686de0;
+  text-align: center;
+  border-radius: 00px 00px 32px 32px;
+  -moz-border-radius: 00px 00px 32px 32px;
+  -webkit-border-radius: 00px 00px 32px 32px;
+  border: 0px solid #000000;
+  transition-duration: 1000ms;
+  height: 120px;
+}
+div.imgboxStudents img {
+  position: static;
+  width: 100px;
+  height: 100px;
+  top: 220px;
+  left: 10;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 5px white solid;
+  transform: translateY(-50px);
+}
+
+.boxBlueStudents h5 {
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  transform: translateY(-45px);
+}
+
+.btnLink {
+  text-decoration: none;
+}
+
+.tableInformationStudents {
+  transform: translateY(-50px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .tableInformationStudents h3 {
+  margin-right: auto;
+  margin-left: auto;
+} */
